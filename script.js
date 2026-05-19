@@ -2,13 +2,13 @@
   "use strict";
 
   // ------- Configuration -------
-  const SERVICE_NAME = "Saggy Neck Double Lift";
+  const SERVICE_NAME = "Bye Bye Eye Bags";
   const SERVICE_DURATION_MIN = 60;
 
   // GHL credentials
   const GHL = {
     locationId: 'y0BxIuctoWoj4zjXtJbh',
-    calendarId: 'OrTYjwn8ul9aGXxxEqei',
+    calendarId: 'DF7lc0tzj2L88QDrUJXG',
     userId:     '2tQreqXcDpaAiSBqlK7T',
     apiKey:     'pit-7fe5e574-7277-43b9-aef0-c14dd061745d',
     apiBase:    'https://services.leadconnectorhq.com',
@@ -281,8 +281,8 @@
         lastName: lastName || '-',
         email,
         phone,
-        source: 'Saggy Neck Double Lift LP',
-        tags: ['Saggy Neck Double Lift'],
+        source: 'Bye Bye Eye Bags LP',
+        tags: ['Bye Bye Eye Bags'],
       });
       const contactId = contactRes.contact?.id || contactRes.id;
 
@@ -297,7 +297,7 @@
         assignedUserId: GHL.userId,
         startTime:      isoInTz(start, BUSINESS_TZ),
         endTime:        isoInTz(end,   BUSINESS_TZ),
-        title:          `${name} — Saggy Neck Double Lift`,
+        title:          `${name} — Bye Bye Eye Bags`,
         // appointmentStatus: 'confirmed',
         selectedTimezone: BUSINESS_TZ,
       });
